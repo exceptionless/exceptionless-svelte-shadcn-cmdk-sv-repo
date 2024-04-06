@@ -1,18 +1,13 @@
-# create-svelte
+# Reproduction sample
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Sample that shows off <https://github.com/huntabyte/cmdk-sv/issues/72>
 
-## Creating a project
+## Reproduction Steps
 
-If you're seeing this, you've probably already done this step. Congrats!
+Main page is located src\routes\+page.svelte
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Add status / date range filter (same base component), notice you can't use keyboard navigation on the Command.Items
+2. Add keyword filter, notice you can't use keyboard or tab navigation from input (think form) to other command items for actions.
 
 ## Developing
 
